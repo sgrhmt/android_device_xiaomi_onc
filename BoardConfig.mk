@@ -56,6 +56,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/vince
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_CONFIG := vince-perf_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
+KERNEL_SD_LLVM_SUPPORT := false
 
 # ANT
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
