@@ -30,6 +30,15 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
+PRODUCT_PACKAGES += \
+    AOSPAVinceFrameworks \
+    VinceFrameworks \
+    VinceSettings \
+    VinceSettingsProvider \
+    VinceSystemUI \
+    TetheringConfigOverlay \
+    WifiOverlay
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -462,7 +471,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwifi-hal-ctrl \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf \
     android.hardware.tetheroffload.config@1.0.vendor \
