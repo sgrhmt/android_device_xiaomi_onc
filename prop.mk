@@ -282,13 +282,6 @@ ro.telephony.use_old_mnc_mcc_format=true \
 ril.subscription.types=NV,RUIM \
 vendor.service.qti.ims.enabled=1
 
-# Recovery
-PRODUCT_SYSTEM_PROPERTIES += \
-persist.sys.recovery_update=false
-
-PRODUCT_VENDOR_PROPERTIES += \
-persist.vendor.recovery_update=false
-
 # SOC
 PRODUCT_VENDOR_PROPERTIES += \
 ro.soc.manufacturer=QTI \
