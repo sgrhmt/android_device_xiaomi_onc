@@ -224,11 +224,6 @@ PRODUCT_SYSTEM_PROPERTIES += \
 persist.sys.fuse.transcode_user_control=true \
 persist.sys.fuse.transcode_enabled=false
 
-# Perf
-PRODUCT_VENDOR_PROPERTIES += \
-ro.vendor.extension_library=libqti-perfd-client.so \
-ro.vendor.perf.scroll_opt=true
-
 # Network manager daemon
 PRODUCT_VENDOR_PROPERTIES += \
 ro.vendor.use_data_netmgrd=true \
