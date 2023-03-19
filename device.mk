@@ -39,6 +39,9 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
 
+# APEX
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
