@@ -100,22 +100,7 @@ vendor.audio.feature.incall_music.enable=true
 PRODUCT_VENDOR_PROPERTIES += \
 vendor.qcom.bluetooth.soc=smd
 
-# Bluetooth Profiles
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
-bluetooth.device.class_of_device=90,2,12 \
-bluetooth.profile.a2dp.source.enabled?=true \
-bluetooth.profile.asha.central.enabled=false \
-bluetooth.profile.avrcp.target.enabled?=true \
-bluetooth.profile.bas.client.enabled?=true \
-bluetooth.profile.gatt.enabled?=true \
-bluetooth.profile.hfp.ag.enabled?=true \
-bluetooth.profile.hid.device.enabled?=true \
-bluetooth.profile.hid.host.enabled?=true \
-bluetooth.profile.map.server.enabled?=true \
-bluetooth.profile.opp.enabled?=true \
-bluetooth.profile.pan.nap.enabled?=true \
-bluetooth.profile.pan.panu.enabled?=true \
-bluetooth.profile.pbap.server.enabled?=true \
 bluetooth.sco.disable_enhanced_connection=1 \
 bluetooth.hardware.power.operating_voltage_mv=3300
 

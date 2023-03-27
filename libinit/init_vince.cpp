@@ -88,10 +88,11 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
-    // Set default bluetooth device name
-    property_override("bluetooth.device.default_name", "Redmi 5 Plus");
-
     // Override ro.control_privapp_permissions
     property_override("ro.control_privapp_permissions", "log");
 
+    // Override bluetooth props
+    property_override("bluetooth.device.default_name", "Redmi 5 Plus");
+    property_override("bluetooth.profile.sap.server.enabled", "false");
+    property_override("bluetooth.profile.asha.central.enabled", "false");
 }
