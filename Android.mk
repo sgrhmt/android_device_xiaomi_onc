@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifeq ($(TARGET_DEVICE),vince)
+ifeq ($(TARGET_DEVICE),onc)
 
 include $(call all-subdir-makefiles)
 
